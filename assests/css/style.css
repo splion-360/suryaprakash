@@ -2898,7 +2898,7 @@ textarea.form-input::-webkit-resizer {
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 50px;
+    max-width: 5px;
     height: auto;
     margin: 50px;
     mix-blend-mode: overlay; /* This will blend the white background with the page background */
