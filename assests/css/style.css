@@ -2900,19 +2900,11 @@ textarea.form-input::-webkit-resizer {
     right: 0;
     max-width: 50px;
     height: auto;
-    margin: 10px;
+    margin: 50px;
     mix-blend-mode: overlay; /* This will blend the white background with the page background */
 }
 
-.transparent-sr-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  max-width: 75px;
-  height: auto;
-  margin: 10px;
-  mix-blend-mode: multiply; /* This will blend the white background with the page background */
-}
+
 
 
 
