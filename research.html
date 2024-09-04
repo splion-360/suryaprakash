@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="./img/favicon.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>telecomsteve</title>
+<link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+
+<div class="sidenav">
+    <div class="navblock">
+        <div class="navblock_text">
+            <a href="./index.html">About</a>
+            <a href="./resume.html">Resume</a>
+            <a style="color:#3498DB" href="./research.html">Projects</a>
+            <a href="./portfolio.html">Misc</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="main">
+  <h2 class="resume_accent">Selected Academic Projects</h2>
+    <br><br>
+    <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin: 0;">
+        <div style="flex: 0 0 auto; margin-right: 50px;">
+          <img src="./img/dist.png" alt="Network" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000; padding: 5px;">
+          <img src="./img/sim.gif" alt="Atari Environment" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <h3 class="research_accent" style="display: inline; margin-right: 10px;">Distributed Advantage Actor Critic (DAAC)</h3>
+          <a href="https://github.com/splion-360/Distributed-RL" style="margin-right: 0px; font-size: 18px; display: inline;">[Project Website]</a>
+          <ul style="margin: 0; padding: 0;">
+            <li style="font-size: 18px; margin: 0; padding: 0;">Developed a distributed approach facilitating model training across multiple nodes in a topology by providing mechanisms for remote communication using RPC.</li>
+            <li style="font-size: 18px; margin: 0; padding: 0;">Enhanced data collection by leveraging A3C and PAAC networks to gather experiences from a distributed cluster, achieving a <b>1.5X</b> speedup over the serial counterpart.</li>
+          </ul>  
+        </div>
+      </div>
+      
+      
+    <br>
+
+    <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin: 0;">
+        <div style="flex: 0 0 auto; margin-right: 50px;">
+          <img src="./img/trajectory.gif" alt="Mouse trajectory" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000;">
+        </div>
+        <div style="flex: 1;">
+          <h3 class="research_accent" style="display: inline; margin-right: 10px;">Deep Learning for Social Navigation and Behaviour Modelling</h3>
+          <a href="" style="margin-right: 10px; font-size: 18px; display: inline;">[Project Website]</a>
+          <ul style="margin: 0; padding: 0;">
+            <li style="font-size: 18px; margin: 0; padding: 0;">Implemented diverse algorithms for predicting future trajectories, aiming to comprehend animal and human behaviour.</li>
+            <li style="font-size: 18px; margin: 0; padding: 0;">Modelled 3 distinct graphs to establish spatio-temporal interactions among mice and setup clusters for parallel training.</li>
+            <li style="font-size: 18px; margin: 0; padding: 0;">Designed a novel geodesic loss to preserve anatomical constraints and demonstrated a <b>12%</b> improved prediction.</li>
+          </ul>  
+        </div>
+      </div>
+      
+      
+
+    <br>
+    <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin: 0;">
+        <div style="flex: 0 0 auto; margin-right: 50px;">
+          <img src="./img/tcgan.png" alt="Network" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000;">
+          <img src="./img/mopred.gif" alt="Sample Video" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000;">
+        </div>
+        <div style="flex: 1;">
+          <h3 class="research_accent" style="display: inline; margin-right: 10px;">Pose prediction using Temporal Convolutions</h3>
+          <a href="https://github.com/Matnay/fairmotion/tree/tcn/fairmotion" style="margin-right: 10px; font-size: 18px; display: inline;">[Project Website]</a>
+          <ul style="margin: 0; padding: 0;">
+            <li style="font-size: 18px; margin: 0;">Investigated sequential models for human pose prediction on AMASS ACCAD dataset with SO(3) representation.</li>
+            <li style="font-size: 18px; margin: 0;">Developed Temporal Convolutions (TCN) that surpassed Vanilla Transformer by <b>53%</b> with <b>< 50%</b> parameters.</li>
+            <li style="font-size: 18px; margin: 0;">Built TCGAN to generate multiple input-conditioned poses and achieved an improvement of <b>56%</b> over Transformer.</li>
+          </ul>  
+        </div>
+      </div>
+      
+    <br>
+
+    <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin: 0;">
+        <div style="flex: 0 0 auto; margin-right: 50px;">
+          <img src="./img/robot.gif" alt="Network" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000;">
+        </div>
+        <div style="flex: 1;">
+          <h3 class="research_accent" style="display: inline; margin-right: 10px;">Painting with Serial Robotic Arm</h3>
+          <ul style="margin: 0; padding: 0;">
+            <li style="font-size: 18px; margin: 0;">Programmed a Universal Robot (UR5) to paint an outline of an object using visual cues from an image in real time.</li>
+            <li style="font-size: 18px; margin: 0;">Performed Forward and Reverse displacement analysis using the DH parameters and simulated robot motion using waypoint generation techniques in MATLAB and Gazebo.</li>
+          </ul>  
+        </div>
+      </div>
+      
+    <br>
+
+
+    <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin: 0;">
+        <div style="flex: 0 0 auto; margin-right: 50px;">
+          <img src="./img/lab6.gif" alt="Network" loading="lazy" class="project-img" style="display: block; border: 2px solid #000000;">
+        </div>
+        <div style="flex: 1;">
+          <h3 class="research_accent" style="display: inline; margin-right: 10px;">Autonomous Mobile Robot</h3>
+          <ul style="margin: 0; padding: 0;">
+            <li style="font-size: 18px; margin: 0;">Programmed Turtlebot3 via state machines to classify signs and avoid obstacles by fusing LiDAR, Pi-Cam, and odometry.</li>
+            <li style="font-size: 18px; margin: 0;">Employed ROS2 Nav-Stack and implemented HectorSLAM for autonomous navigation in the maze environment.</li>
+            <li style="font-size: 18px; margin: 0;">Analyzed incoming stream of images using Canny Edge Detector and KNN classifier with an accuracy of <b>90%</b>.</li>
+          </ul>  
+        </div>
+      </div>
+      
+    <br>
+
+
+    <h3 class="research_accent" style="display: inline;">Hackathons</h3><br>
+    <h4 style="margin: 0; font-size: 20px; display: inline;">Winner, Mega Chess SF Hackathon 2024 - Strong Compute</h4>
+    <a href="https://lu.ma/56gwityi" style="margin-left: 10px; font-size: 18px; display: inline;">[Website]</a>
+    <div class="parent-container" style="margin: 0;">
+      <img src="./img/strongcompute.png" alt="Strong Compute" loading="lazy" class="transparent-img">
+    </div>
+    <ul style="margin: 0">
+      <li style="margin: 0;"><p style ="font-size: 18px; margin: 0;">Led a team of two to develop a vision-based deep learning chess model using a combined self attention and convolutional approach.</p></li>
+      <li style="margin: 0;"><p style ="font-size: 18px; margin: 0;">Built and trained the model on Strong Compute's clusters, achieving top performance in evaluations conducted by the Stockfish chess engine among teams from USA and Australia.</p></li>
+    </ul>
+</div>
+</body>
+</html> 

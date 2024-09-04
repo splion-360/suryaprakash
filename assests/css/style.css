@@ -983,7 +983,7 @@ main {
 }
 
 .timeline .title-wrapper {
-  display: flex;
+  display: inline-block;
   align-items: center;
   gap: 15px;
   margin-bottom: 25px;
@@ -1098,7 +1098,7 @@ main {
   display: none;
 }
 
-.filter-select-box {
+/* .filter-select-box {
   position: relative;
   margin-bottom: 25px;
 }
@@ -1115,7 +1115,7 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-}
+} */
 
 .filter-select.active .select-icon {
   transform: rotate(0.5turn);
@@ -2898,9 +2898,9 @@ textarea.form-input::-webkit-resizer {
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 5px;
+    max-width: 50px;
     height: auto;
-    margin: 50px;
+    margin: 10px;
     mix-blend-mode: overlay; /* This will blend the white background with the page background */
 }
 
